@@ -1,6 +1,6 @@
 # Artificial Neural Network in JavaScript
 
-This repository contains a simple implementation of a neural network in JavaScript. It utilizes the provided `ekko.js` for the neural network, and activation functions (`actFUNC.js`) such as `sigmoid`, `relu`, and `tanh`.
+This repository contains a simple implementation of a neural network in JavaScript, from scratch. No libraries were used. It utilizes the provided `ekko.js` for the neural network, and activation functions (`actFUNC.js`) such as `sigmoid`, `relu`, and `tanh`.
 
 ## Contents
 
