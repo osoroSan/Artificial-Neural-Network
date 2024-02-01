@@ -24,6 +24,7 @@ Example usage in your project:
 ## Import necessary modules
 
 const neuralNet = require('./ekko.js');
+
 const { relu, tanh, sigmoid } = require('./actFUNC');
 
 ## Create a neural network with specified architecture and parameters
@@ -33,12 +34,12 @@ let net = new neuralNet([7, 10, 10, 1], 0.01, sigmoid, sigmoid, false);
 ## Define training function
 
 const train = (epochs) => {
-  for (let i = 0; i < epochs; i++) {
-    console.log(`Iteration ${i + 1}`);
-    for (let k = 0; k < trainData.length; k++) {
-      net.train(trainData[0], trainData[1]);
-    }
-  }
+for (let i = 0; i < epochs; i++) {
+console.log(`Iteration ${i + 1}`);
+for (let k = 0; k < trainData.length; k++) {
+net.train(trainData[0], trainData[1]);
+}
+}
 };
 
 ## Train the neural network for 100 epochs
